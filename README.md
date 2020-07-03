@@ -477,5 +477,4 @@ Once the plugin is installed, restart grafana:
 >$ sudo service grafana-server restart
 
 Install the dasboard grafana.com/dashboards/8010. Create a new datasource, select the prometheus-alertmanager datasource, configure and save.
-Add a new dasboard, select import and provide the ID 8010, select the prometheus-alertmanager datasource and save. You should see the following (more or less):
-
+Add a new dasboard, select import and provide the ID 8010, select the prometheus-alertmanager datasource and save. 
