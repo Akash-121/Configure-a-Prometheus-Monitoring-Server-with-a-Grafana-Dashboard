@@ -1,0 +1,10 @@
+route:
+    receiver: 'slack'
+
+receivers:
+    - name: 'slack'
+      slack_configs:
+        - send_resolved: true
+          username: 'alert'
+          channel: '#prom_alert'
+          api_url: 'https://hooks.slack.com/services/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'
